@@ -1,0 +1,18 @@
+{
+  "name": "Spoiderman",
+  "symbol": "SPD",
+  "description": "Spiderman-themed token",
+  "image": "https://res.cloudinary.com/dvxar933p/image/upload/v1760014829/Gemini_Generated_Image_r5i5xor5i5xor5i5_opffjb.png",
+  "external_url": "https://your-site.example",
+  "attributes": [{ "trait_type": "Hero", "value": "Spiderman" }],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://res.cloudinary.com/dvxar933p/image/upload/v1760014829/Gemini_Generated_Image_r5i5xor5i5xor5i5_opffjb.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [{ "address": "YourOnChainCreatorPubkeyHere", "share": 100 }]
+  }
+}
