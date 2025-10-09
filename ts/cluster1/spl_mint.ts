@@ -34,7 +34,7 @@ const mint = new PublicKey("9kPydm89QEcE4aJ3SV2zEcS6HiCmD8ozHJcHkmRtEtcQ");
       mint,
       ata.address,
       keypair,
-      1_000_000n
+      BigInt(1_000_000n) * BigInt(100)
     );
     console.log(`Minted 1000000 units = 1 tokens to ${ata.address.toBase58()}`);
     console.log(`Your mint txid: ${mintTx}`);
